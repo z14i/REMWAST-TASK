@@ -28,6 +28,12 @@ Once a booking is confirmed, the journey should be locked or reset explicitly. S
 
 ### Screenshot
 
+
+
+https://github.com/user-attachments/assets/b0c083c9-798a-49af-a101-a4eb7c448fcc
+
+
+
 - 
 
 <hr>
@@ -59,42 +65,16 @@ The user should land on a dedicated confirmation page or a centered confirmation
 
 ### Screenshot
 
-- 
+<img width="1903" height="1033" alt="Screenshot 2026-04-19 at 6 04 00 PM" src="https://github.com/user-attachments/assets/6590de28-3908-4a4a-a28d-200cbc1c36da" />
 
-<hr>
-<hr>
-
-## BR-03: Homepage hero is still trapped inside a large bordered shell with excessive empty space
-
-- Severity: Medium
-- Area: Landing page / desktop layout
-- Environment: Staging
-
-### Summary
-
-The initial landing page content is wrapped inside a very large rounded container. The title, search bar, and service-area helper content occupy only a small portion of that box, leaving a noticeable amount of empty space and making the page feel like a prototype panel rather than a real homepage.
-
-### Steps to Reproduce
-
-1. Open `https://rme-wast-task.vercel.app/` on desktop.
-2. Observe the initial page before interacting with the search field.
-
-### Actual Result
-
-The full experience sits inside a large bordered shell, with the hero content visually constrained and surrounded by unused whitespace.
-
-### Expected Result
-
-The homepage hero should sit directly on the page and feel centered and intentional, without relying on a large outer frame.
-
-### Screenshot
 
 - 
 
+
 <hr>
 <hr>
 
-## BR-04: Review and confirmation views remain visually crowded because journey status competes with primary content
+## BR-03: Review and confirmation views remain visually crowded because journey status competes with primary content
 
 - Severity: Low
 - Area: Review and confirmation pages / information hierarchy
@@ -119,5 +99,9 @@ The review and confirmation content shares space with multiple supporting summar
 The review page should prioritize review content, and the confirmation page should prioritize the success state, with supporting status information simplified or moved out of the way.
 
 ### Screenshot
+
+<img width="307" height="901" alt="Screenshot 2026-04-19 at 6 13 01 PM" src="https://github.com/user-attachments/assets/e5f978ad-2650-45e9-8f5e-d0ffe3663c0b" />
+
+<img width="1903" height="1033" alt="Screenshot 2026-04-19 at 6 08 03 PM" src="https://github.com/user-attachments/assets/eb1c0c4c-d6e5-47d9-ad30-fa0043442829" />
 
 
