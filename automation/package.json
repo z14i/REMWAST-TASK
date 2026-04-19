@@ -1,0 +1,21 @@
+{
+  "name": "automation",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright tests for the booking web app prototype",
+  "scripts": {
+    "test": "playwright test",
+    "test:local": "playwright test",
+    "test:deployed": "PLAYWRIGHT_BASE_URL=https://rme-wast-task.vercel.app playwright test",
+    "test:deployed:headed": "PLAYWRIGHT_BASE_URL=https://rme-wast-task.vercel.app playwright test --headed",
+    "test:ci": "playwright test --reporter=line",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug"
+  },
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
+}
